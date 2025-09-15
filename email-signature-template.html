@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Import your preferred Google Font - replace 'Inter' with your choice */
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+      :root {
+        /* Customizable CSS Variables */
+        --signature-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        --signature-color: #2d3748;
+        --border-color: #e2e8f0;
+        --logo-width: 60px;
+      }
+
+      .signature-table {
+        font-family: var(--signature-font);
+        color: var(--signature-color);
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+      
+      a {
+        color: var(--signature-color);
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      .signature-logo {
+        border-right: 1px solid var(--border-color);
+        padding-right: 12px;
+        width: var(--logo-width);
+      }
+      
+      .image {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        max-height: 50px;
+      }
+      
+      .signature-details {
+        padding-top: 3px;
+        padding-left: 12px;
+        line-height: 1.5;
+        vertical-align: top;
+      }
+      
+      .name {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="signature-table">
+      <tr>
+        <td class="signature-logo">
+          <img
+            class="image"
+            src="{{LOGO_URL}}"
+            alt="{{COMPANY_NAME}} Logo"
+          />
+        </td>
+        <td class="signature-details">
+          <div class="name">{{FULL_NAME}}</div>
+          {{EMAIL_ADDRESS}}<br />
+          {{PHONE_NUMBER}}<br />
+          <a target="_blank" href="{{WEBSITE_URL}}">{{WEBSITE_DISPLAY}}</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
