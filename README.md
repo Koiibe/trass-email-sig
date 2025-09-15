@@ -89,8 +89,9 @@ For best results, your logo should be:
 email-signature-template/
 ├── email-signature-template.html    # Main template file
 ├── example-signature.html           # Example with sample data
-├── README.md                        # This file
-└── placeholder-logo.png            # Sample logo placeholder
+├── Trass Lockup Funnel.svg         # Trass company logo
+├── placeholder-logo.svg            # Sample logo placeholder
+└── README.md                        # This file
 ```
 
 ## Troubleshooting
