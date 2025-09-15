@@ -24,6 +24,12 @@ A clean, professional, and customizable HTML email signature template that works
 
 3. **Open in browser** and copy the rendered signature to your email client
 
+## Preview
+
+![Trass Logo](./Trass%20Lockup%20Funnel.svg)
+
+*Example logo used in the email signature template*
+
 ## Customization
 
 ### Colors and Styling
